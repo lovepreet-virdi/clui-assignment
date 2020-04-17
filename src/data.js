@@ -3,8 +3,8 @@ const employees = [
     { command: 'A', description: 'this is a ', ui: 'this is a simple string ui' },
     { command: 'B', description: 'this is b', ui: <div style={{color: 'yellow'}}>this is a simple div ui</div> },
     { command: 'C', description: 'this is c', ui: <ul><li>list item 1</li>
-    ><li>list item 2</li>
-    ><li>list item 3</li>
+    <li>list item 2</li>
+    <li>list item 3</li>
     </ul> },
     {
         command: 'D', description: 'this is d', child: [

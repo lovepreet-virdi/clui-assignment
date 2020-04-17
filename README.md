@@ -13,13 +13,13 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.<br/>
 If port 3000 will be in use then it will automatically shift to 3001 and so on.
 There is a src->data.js file. The dynamic data structure should match the following:-
-<code>
+
 const employees = [
     { command: 'A', description: 'this is a ', ui: 'this is a simple string ui' },
     { command: 'B', description: 'this is b', ui: <div style={{color: 'yellow'}}>this is a simple div ui</div> },
     { command: 'C', description: 'this is c', ui: <ul><li>list item 1</li>
-    ><li>list item 2</li>
-    ><li>list item 3</li>
+    <li>list item 2</li>
+    <li>list item 3</li>
     </ul> },
     {
         command: 'D', description: 'this is d', child: [
@@ -35,7 +35,7 @@ const employees = [
         ]
     }
 ]
-</code>
+<br/>
 There must one of either ui or child prop be avaialable in each record .<br/>
 The ui can be any valid React element
 
